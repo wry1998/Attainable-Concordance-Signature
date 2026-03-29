@@ -2,7 +2,7 @@
 
 Under the supervision of Prof. Johanna Nešlehová, I conducted an undergraduate research project motivated by McNeil et al. (2020) on attainable concordance signatures—the collection of concordance probabilities over the power set that characterizes multivariate dependence beyond pairwise measures. I proposed an applied study using the Swiss Market Index (SMI), which contains 20 constituents with two lack complete histories, making the attainable-set framework directly relevant.
 
-*******************************
+---------------------------------------------------------
 
 ## Project Goal
 
