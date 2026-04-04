@@ -84,8 +84,12 @@ Second, I empirically found that lower-dimensional projections of the attainable
 
 ```text
 .
-├── code/               # Sample R code for data preprocessing, dimension reduction, and attainability analysis
-├── report/             # final written report
+├── code/                        # Sample R code
+│   ├── 01_Data Preprocessing.R  # Fit GRACH(1,1) models, generate residuals, check fitt
+│   ├── 02_Reducing Dimension.R  # reduce dimension, prepare kendall's tau matrix for concordance calculation
+│   └── 03_Empirical Results.R   # attainability of higher-order independence, set of attainable concordance signature, pairwise concordance signature estimation
+├── report/                      
+│   └── report.pdf               # final written report
 └── README.md
 ```
 
