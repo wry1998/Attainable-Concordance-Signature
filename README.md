@@ -80,7 +80,7 @@ Second, I empirically found that lower-dimensional projections of the attainable
 
 ------------------------------------------------------------------
 
-## Repository Contents
+## Repository Structure
 
 ```text
 .
