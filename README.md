@@ -100,3 +100,6 @@ On attainability of Kendall’s tau matrices and concordance signatures.
 <a id="Perreault2019"></a>
 **Perreault, S., Duchesne, T., & Nešlehová, J. G. (2019).**  
 Detection of block-exchangeable structure in large-scale correlation matrices.
+
+---
+*For an overview of my research projects, see my [research portfolio](https://github.com/wry1998/research-portfolio).*
