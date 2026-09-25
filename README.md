@@ -1,6 +1,6 @@
 # Attainable Concordance Signature on Swiss Market Index
 
-Under the supervision of Professor Johanna Nešlehová, I conducted an undergraduate research project motivated by [McNeil et al., 2022](#mcneil2022) on attainable concordance signatures. I proposed an applied study using the Swiss Market Index (SMI), which contains 20 constituents with two lack complete histories.
+This repository contains my undergraduate research project, where I proposed an applied study of attainable concordance signatures using the Swiss Market Index (SMI). This project was motivated by [McNeil et al., 2022](#mcneil2022) and supervised by Professor Johanna Nešlehová.
 
 This project aimed to answer the following questions:
 
