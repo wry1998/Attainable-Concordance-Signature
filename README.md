@@ -5,8 +5,8 @@ This repository contains my undergraduate research project, where I proposed an 
 This project aimed to answer the following questions:
 
 - How can we study multivariate dependence when some components' data are not available?
-- What does the attainable set of concordance signatures look like on Swiss Market Index?
-- How can we reduce dimensionality when the computation of concordance signatures scales exponentially with dimension?
+- What does the attainable concordance signatures look like on Swiss Market Index?
+- How can we study the full attainable concordance signature when the computation scales exponentially with dimension?
 
 ------------------------------
 
@@ -31,6 +31,7 @@ Model adequacy was checked using:
 (Note that the theoretical framework of this project is based entirely on [McNeil et al., 2022](#mcneil2022). I only summarized the key formulas here, please refer to the original paper for more details.)
 
 For a set of variables $\mathcal{X}$, its **concordance signature** is defined as the collection of concordance probabilities $\kappa_I$ over all subsets of the index set $D$ of $X$:		
+
 $$
 \kappa_I = \mathbb{P}\left(\{\boldsymbol{X}_I \leq \boldsymbol{X}_I^*\} \cup \{\boldsymbol{X}_I^* \leq \boldsymbol{X}_I\}\right)
 = 2\int_{[0,1]^{|I|}} C_I(\boldsymbol{u})\,dC_I(\boldsymbol{u})
