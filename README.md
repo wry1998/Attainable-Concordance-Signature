@@ -32,12 +32,13 @@ Model adequacy was checked using:
 
 For a set of variables $\mathcal{X}$, its **concordance signature** is defined as the collection of concordance probabilities $\kappa_I$ over all subsets of the index set $D$ of $X$:		
 
-$$
+```math
 \kappa_I = \mathbb{P}\left(\{\boldsymbol{X}_I \leq \boldsymbol{X}_I^*\} \cup \{\boldsymbol{X}_I^* \leq \boldsymbol{X}_I\}\right)
 = 2\int_{[0,1]^{|I|}} C_I(\boldsymbol{u})\,dC_I(\boldsymbol{u})
-$$
+```
 
 For elliptical distributions, concordance signature can be generated from the Kendall's tau matrix:
+
 $$
 \kappa_I = 2\mathbb{P}(\boldsymbol{Z}_I \leq \boldsymbol{0}), \quad
 \boldsymbol{Z} \sim N_d(\boldsymbol{0},\boldsymbol{P}), \quad
@@ -47,6 +48,7 @@ $$
 Also, odd-order concordance signatures can be derived from even ones, so the full concordance signature is determined soley by the probabilities of concordance of even subsets. The methodology for attainable concordance signature is thus based on the even-order concordance signarures. 
 
 Not any concordance signature is attainable. The set of attainable concordance signatures is given by the convex hull:
+
 $$
 \mathbb{K} =
 \left\{
@@ -57,12 +59,14 @@ w_k \geq 0, k=1,\ldots,2^{d-1},
 $$
 
 Thus, given a partial concordance signature $\kappa_S$, it is attainable if we can find a non-negative weight vector that satisfies:
+
 $$
 A_d^S w = \kappa_S, \quad
 A_d^S \text{ consists of the rows of } \boldsymbol{A}_d = (\boldsymbol{a}_k) \text{ indexed by } S
 $$	
 
 And, if the partial concordance signature is attainable, the set of attainable remaining concordance signature is 
+
 $$
 \mathbb{K}^C = \left\{
 A_d^C w : w \text{ is a solution to } A_d^S w = \kappa_S
@@ -92,6 +96,7 @@ I chose several subsets from SMI to apply the attainability check. I first gener
 
 I then tried to partition the stocks into clusters that satisfy the **Partial Exchangeability Assumption (PEA)**:
 For a partition $G=\{G_1,...,G_k\}$ of $X_1,...,X_d$, any permutation $\pi(1),...,\pi(d)$ that preserves the partition also preserves the copula:
+
 $$
 C(u_1,...,u_d) = C(u_{\pi(1)},...u_{\pi(d)})
 $$
