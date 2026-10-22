@@ -51,11 +51,11 @@ Not any concordance signature is attainable. The set of attainable concordance s
 
 $$
 \mathbb{K} =
-\left\{
+\left\lbrace
 \sum_{k=1}^{2^{d-1}} w_k \boldsymbol{a}_k :
 w_k \geq 0, k=1,\ldots,2^{d-1},
 \sum_{k=1}^{2^{d-1}} w_k = 1
-\right\}
+\right\rbrace
 $$
 
 Thus, given a partial concordance signature $\kappa_S$, it is attainable if we can find a non-negative weight vector that satisfies:
@@ -68,9 +68,9 @@ $$
 And, if the partial concordance signature is attainable, the set of attainable remaining concordance signature is 
 
 $$
-\mathbb{K}^C = \left\{
+\mathbb{K}^C = \left\lbrace
 A_d^C w : w \text{ is a solution to } A_d^S w = \kappa_S
-\right\}
+\right\rbrace
 $$
 
 Using this framework, I analyzed the dependence structure of SMI.
